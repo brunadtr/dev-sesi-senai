@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(201, 255, 246);
+    text-align: center;
+}
+h1{
+    color: rgb(112, 0, 216);
+}
+hr{
+    border-color: rgb(158, 0, 119);
+}
+table{
+    margin: auto;
+}
+td{
+    width: 100px;
+    height: 100px;
+}
+tr{
+    width: 100px;
+    height: 100px;
+}
+.Q1{
+    background-color: rgb(19, 0, 229);
+    transition: 500ms;
+}
+.Q1:hover {
+    background-color: rgb(73, 116, 244);
+    transition: 500ms;
+}
+.Q2{
+    background-color: blueviolet;
+    transition: 500ms;
+}
+.Q2:hover {
+    background-color: rgb(196, 133, 255);
+    transition: 500ms;
+}
+.Q3{
+    background-color: gold;
+}
+.Q3:hover {
+    background-color: rgb(255, 239, 148);
+    transition: 500ms;
+}
+.Q4{
+    background-color: rgb(255, 61, 158);
+    transition: 500ms;
+}
+.Q4:hover {
+    background-color: rgb(255, 157, 206);
+    transition: 500ms;
+}
+.Q5{
+    background-color: rgb(55, 233, 6);
+    transition: 500ms;
+}
+.Q5:hover {
+    background-color: rgb(172, 255, 149);
+    transition: 500ms;
+}
+#A1{
+    background-color: rgb(255, 0, 51);
+}

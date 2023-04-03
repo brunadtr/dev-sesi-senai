@@ -1,0 +1,94 @@
+body{
+    background-image: url(/img/imagemlogin.jpg);
+    background-size: cover;
+}
+.div1{
+    background-color: rgba(87, 75, 255, 0.481);
+    width: 400px;
+    height: 500px;
+    box-shadow: 20px 20px 20px 20px rgba(2, 0, 117, 0.564);
+    text-align: center;
+    padding: 70px;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.divimg{
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.div2{
+    text-align: left;
+    margin: 20px;
+}
+.div3{
+    text-align: left;
+    margin: 20px;
+}
+.div4{
+    margin-top: 40px;
+    text-align: center;
+}
+.div5{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+input{
+    background-color: rgba(240, 248, 255, 0.522);
+    border-color: rgba(240, 248, 255, 0);
+    width: 350px;
+    height: 30px;
+    border-radius: 3px;
+}
+label{
+    color: white;
+    margin: auto;
+}
+.login{
+    background-color: rgb(255, 255, 255);
+    padding: 10px 80px 10px 80px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-radius: 6px;
+    box-shadow: 6px 6px 6px rgba(1, 1, 126, 0.558);
+}
+.login:hover{
+    background-color: rgb(199, 199, 199);
+    padding: 15px 85px 15px 85px;
+    font-size: 20px;
+}
+.google{
+    background-color: rgba(240, 248, 255, 0.567);
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: rgb(255, 249, 245);
+    border-radius: 6px;
+    margin: 10px;
+    text-shadow: 2px 2px 2px rgb(78, 72, 72);
+}
+.google:hover{
+    background-color: rgba(179, 179, 179, 0.549);
+}
+.facebook{
+    background-color: rgba(240, 248, 255, 0.567);
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    color: rgb(255, 249, 245);
+    border-radius: 6px;
+    margin: 10px;
+    text-shadow: 2px 2px 2px rgb(79, 74, 74);
+}
+.facebook:hover{
+    background-color: rgba(179, 179, 179, 0.549);
+}

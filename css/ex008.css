@@ -1,0 +1,55 @@
+.class1{
+    border: 1px solid black;
+}
+.class2{
+    border-bottom: 4px solid red;
+}
+.class3{
+    border: 1px solid rgb(5, 213, 5);
+    border-radius: 8px;
+}
+.class4{
+    border-left: 4px solid rgb(9, 9, 167);
+    background-color:rgb(145, 202, 255);
+}
+.class5{
+    border-top: 1px dotted rgb(236, 56, 236);
+
+}
+.class6{
+    border-top: 4px solid blue;
+    border-right: 4px dotted rgb(250, 0, 137);
+    border-left: 4px solid rgb(255, 0, 255);
+    border-bottom: 4px dashed rgb(255, 230, 0);
+}
+.sol{
+    height: 300px;
+    width: 600px;
+    border-radius: 30px;
+}
+.grizz{
+    border-radius: 300px;
+    width: 300px;
+    height: 300px;
+}
+.borda{
+    width: 300px;
+    height: 300px;
+    border: 1px solid transparent;
+    background: linear-gradient(45deg, rgb(255, 234, 0), rgb(255, 132, 0), rgb(255, 0, 106), rgb(96, 0, 205));
+    border-radius: 300px;
+    padding: 10px;
+}
+.paisagem{
+    width: 400px;
+    height: 300px;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+.borda8{
+    width: 400px;
+    height: 200px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: blueviolet;
+}

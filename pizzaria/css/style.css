@@ -1,0 +1,140 @@
+/* Reset CSS para tirar todas as margens dos elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+/* Estilização do HEADER - Cabeçalho */
+.cabecalho{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.cabecalho > img{
+    height: 60px;
+}
+.menu{
+    display: flex;
+}
+.menu > li{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.menu > li:hover{
+    background-color: darkred;
+}
+.menu > li > a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 600;
+}
+.div1{
+    display: flex;
+    justify-content: center;
+    background-image: url(/img/pizza.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 400px;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 10px green;
+}
+h1{
+    padding: 50px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.botao1{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.523);
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+}
+.botao1:hover{
+    background-color: rgba(255, 255, 255, 0.575);
+    color: black;
+}
+main{
+    max-width: 1300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+h2{
+    color: green;
+}
+hr{
+    margin-top: 5px;
+    border: none;
+    height: 5px;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(237,18,18,1) 50%, rgba(255,255,255,1) 100%, rgba(0,212,255,1) 100%);
+}
+.conheca{
+    margin-top: 10px;
+}
+.sabores{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sabor{
+    margin: 10px;
+    background-color: green;
+    box-shadow: 4px 4px 4px rgba(0, 128, 0, 0.719);
+    border: 2px solid green;
+    border-radius: 8px;
+}
+.preco{
+    margin: 0 auto;
+    color: black;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+}
+.nome{
+    margin-bottom: 15px;
+    color: white;
+}
+.img-sabor{
+    border-radius: 8px 8px 0 0;
+}
+
+.promocoes{
+    display: flex;
+    overflow: scroll;
+}
+.promocoes::-webkit-scrollbar{
+    display: none;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    border-top: 3px solid rgb(0, 0, 88);
+
+}
+.endereco > li > a{
+    text-decoration: none;
+    color: white;
+}
+.redes > li{
+    list-style-type: none;
+}
+.redes > li > a{
+    color: white;
+    text-decoration: none;
+
+}

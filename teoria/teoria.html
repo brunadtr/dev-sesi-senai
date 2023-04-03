@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro html </title>
+    <!-- Para colocar a imagem, eu coloco "/" entre as aspas do href" -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+<h1>bruna dutra</h1>
+
+<!-- Estudando os elemnetos do HTML -->
+<!-- Entendendo as tags html -->
+<!-- Títulos de h1 a h6 - para textos importantes -->
+<h1>Este é um título
+    <h2>Este é um sub-título</h2>
+    <h3>Este é um título de nível 3</h3>
+    <h4>Este é um título de nível 4</h4>
+    <h5>Este é um título de nível 5</h5>
+    <h6>Este é um título de nível 6</h6>
+    
+    <!-- O <hr> insere uma linha na horizontal -->
+    <hr>
+
+    <!-- Com a tag <p> insiro um parágrafo -->
+        <p>Este é um parágrafo</p>
+        <p>Este é outro parágrafo</p>
+        <hr>
+
+        <!-- A tag <a> representa um link para abrir outra página no atributo href coloco o endereço que desejo ir -->
+        <a href="https://www.sesisp.org.br">
+            Clique aqui para acessar o site do SESI</a>
+          
+     <hr>
+
+     <!-- A tag <br> quebra uma linha ela é uma tag sem fechamento -->
+     <p> Este é um texto grande<br>
+        que desejo<br>
+        quebrar linha</p>
+
+        <img src="img/Group 37.png" alt="Logo da stargeek">
+        <hr>
+       <p> <img src="http://pa1.narvii.com/6922/296b704c25055db6741fc10f9c6a127c3e7f3cc8r1-480-270_00.gif" alt="Gif da Rapunzel"> </p>
+
+       <hr>
+       <!-- Utilizamos &nbsp; para colocar um espeço em branco no meio da frase-->
+       <p>Espaço em &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Branco</p>
+
+       <!-- Para utilizar simbolos ou caracteres preciso inserir o código dele ex &lt;   &gt;
+       Biblioteca de simbolos em https://www.w3schools.com/charsets/ref_utf_symbols.asp -->
+       <p>
+        Para quebrar o texto em algum lugar especifico, coloca esses codigos &lt;br&gt;
+       </p>
+
+       <!-- Para inserir um emoji, pego o hexadecimal do site emojipedia.org e coloco depois de &#x -->
+       Emoji &#x2600 &#x2764 &#x1F3F9
+       <hr>
+       <!-- Tags para formatação de texto -->
+       <b>Texto em negrito</b> <br>
+       <strong>texto importante</strong> <br>
+       <i>texto em italico</i> <br>
+       <em>texto enfatizado</em> <br>
+       <mark>texto marcado</mark> <br>
+       <small>Texto menor</small> <br>
+       <del>texto excluido</del> <br>
+       <ins>texto inserido</ins> <br>
+       <sub>texto subscrito</sub> <br>
+       H<sub>2</sub>O<br>
+       <sup>texto sobrescrito</sup> <br>
+       <u>texto sublinhado</u> <br>
+
+       <hr>
+       <!-- Criando link utilizando atributo _blank para abrir site em nova aba -->
+       <p> <a href="https://www.sesisp.org.br" target="_blank "> Abrir site SESI</a></p>
+       <p> <a href="ex001.html"> Abrir Exercício 1</a></p>
+       <p><a href="ex002.html"> Abrir Exercício 2</a></p>
+       <p><a href="ex003.html"> Abrir Exercício 3</a></p>
+       <p><a href="ex004.html"> Abrir Exercício 4</a></p>
+
+       <!-- Para abrir um link com uma imagem ao invés de um texto -->
+       <!-- Usar width="1000" e height="450" para ajustar o tamanho da imagem -->
+       <hr>
+       <p> <a href="https://www.youtube.com/watch?v=OmsEnoZck6g" target="_blank">
+        <img src="/img/rapunzel.webp" width="1000" height="450" alt="">
+       </a></p>
+       
+      <hr>
+      <!-- Coloque href="mailto:eseuemail" target"_blank" para abrir o link do email no site -->
+      <p> <a href="mailto:bruna.dutra@portalsesisp.org.br" target="_blank"> Clique aqui para abrir o email</a></p>
+
+      <hr>
+      <video src="/midia/meu-video.mp4" width="1000" height="450" controls></video>
+
+      <!-- Fazendo Tabelas-->
+      <!-- Table para fazer a tabela. <tr> para fazer linha. <td> para fazer coluna.-->
+      <hr>
+      <table border="1">
+          <tr>
+              <td>Linha 1 Coluna 1</td>
+              <td>Linha 1 Coluna 2</td>
+              <td>Linha 1 Coluna 3</td>
+          </tr>
+          <tr>
+            <td>Linha 2 Coluna 1</td>
+            <td>Linha 2 Coluna 2</td>
+            <td>Linha 2 Coluna 3</td>
+          </tr>
+          <tr>
+            <td>Linha 3 Coluna 1</td>
+            <td>Linha 3 Coluna 2</td>
+            <td>Linha 3 Coluna 3</td>
+          </tr>
+      </table>
+
+      <hr>
+      <table border="1">
+        <tr>
+          <th>Aluno</th>
+          <th>Notas</th>
+        </tr>
+        <tr>
+          <td>Ana</td>
+          <td>3,5</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>3,0</td>
+        </tr>
+        <tr>
+          <td>Mabare</td>
+          <td>0,5</td>
+        </tr>
+      </table>
+
+      <hr>
+      <table border="1">
+        <tr style="color:rgb(234, 6, 162)">
+          <td>Rosa</td>
+        </tr>
+        <tr style="color:purple">
+          <td>Roxo</td>
+        </tr>
+        <tr style="color:rgb(9, 205, 240)">
+          <td>Azul</td>
+        </tr>
+      </table>
+
+      <hr>
+      <h1 style="color:blue"> Eu sou um título azul</h1>
+      <p style="background-color: red; color:white"> Eu sou um parágrafo com o fundo vermelho</p>
+      <p style="font-size: 60px;"> Eu sou um texto grande</p>
+
+      <hr>
+      <!-- Lista não ordenada -->
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+
+      <!-- Lista ordenada com Nr -->
+      <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <!-- Lista ordenada com romano -->
+      <ol type="i">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <!-- Lista ordenada -->
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <!-- Lista ordenada com letra -->
+      <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+
+      <!-- Lista ordenada com descrição -->
+      <dl>
+        <dt>Coffee</dt>
+        <dt>Tea</dt>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+      </dl>
+
+      <!-- Estudando Formulários -->
+      <form>
+        <!-- Label insere a descrição da informação que irá receber -->
+        <label>Nome:</label>
+        <!-- Input insere um campo digitável do tipo texto -->
+        <input type="text">
+        <br>
+
+        <!-- Incluindo um input do tipo botão -->
+        <input type="button" value="Enviar">
+        <br>
+
+        <!-- Incluindo input do tipo data -->
+        <label>Data de nascimento</label>
+        <input type="date">
+        <br>
+
+        <!-- Incluindo input do tipo data e hora -->
+        <label>Data da prova</label>
+        <input type="datetime-local">
+        <br>
+
+        <!-- Incluindo input do tipo Email -->
+        <label>Email</label>
+        <!-- Placeholder para colocar as letrinhas cinzas dentro da caixa de texto -->
+        <input type="email" placeholder="Digite seu email">
+        <br>
+
+        <!-- Incluindo Checkbox (opções)-->
+        <input type="checkbox">Eu tenho uma bicicleta<br>
+        <input type="checkbox">Eu tenho um carro<br>
+        <input type="checkbox">Eu tenho uma meta<br>
+
+        <!-- Criando um input de seleção -->
+        <select name="Plataforma" required="required">
+          <option value="Escolaridade"> Selecione a escolaridade</option>
+          <option value="Médio"> Ensino Médio</option>
+          <option value="Básico"> Ensino Básico</option>
+          <option value="Superior"> Ensino Superior</option>
+      </select>
+      <br>
+
+      <!-- Criando um radio button -->
+      <input type="radio" name="opçao" value="op1"> Feminino
+      <input type="radio" name="opçao" value="op2"> Masculino
+      <br>
+
+      <!-- Selecionando uma cor -->
+      <input type="color" value="0000ff">
+      <br>
+
+      <!-- Incluindo input para selecionar arquivo -->
+      <label>Selecione uma foto</label>
+      <input type="file">
+      <br>
+
+      <!-- Incluindo input de senha -->
+      <label>Senha</label>
+      <input type="password" placeholder="Digite a senha">
+      <br>
+
+      <!-- Criando um grupo de componentes do formulário -->
+      <fieldset>
+        <!-- Adicionando uma legenda do grupo -->
+        <legend>Legenda do agrupamento</legend>
+        <input type="text">
+      </fieldset>
+      <br>
+
+      <!-- Botão de enviar o formulário -->
+      <input type="submit" value="Enviar">
+      <br>
+      
+      <!-- Botão de Limpar Reset -->
+      <input type="reset" value="Limpar">
+      </form>
+    </body>
+</html>

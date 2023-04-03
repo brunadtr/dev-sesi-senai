@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(177, 253, 177);
+}
+h1{
+    text-align: center;
+    background-color: limegreen;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Satisfy', cursive;
+}
+h2{
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blueviolet, 0 0 5px darkorchid;
+}
+.vermelho{
+    color: red;
+    text-align: justify;
+}
+.azul{
+    color: rgb(89, 0, 199);
+    text-align: center;
+}
+.verde{
+    color: darkgreen;
+    text-align: right;
+}
+.fonte{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Satisfy', cursive;
+}
