@@ -41,7 +41,7 @@ body{
 .div1{
     display: flex;
     justify-content: center;
-    background-image: url(/img/pizza.jpg);
+    background-image: url(img/pizza.jpg);
     background-size: cover;
     background-position: top center;
     height: 400px;
@@ -136,5 +136,4 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(237,18,18,1) 50%
 .redes > li > a{
     color: white;
     text-decoration: none;
-
 }
