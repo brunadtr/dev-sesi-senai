@@ -41,7 +41,7 @@ body{
 .div1{
     display: flex;
     justify-content: center;
-    background-image: url(../img/pizza.jpg);
+    background-image: url(img/pizza.jpg);
     background-size: cover;
     background-position: top center;
     height: 400px;
